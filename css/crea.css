@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "paint";
+    src: url('Painterz.ttf');
+}
+
+html{
+    background-color: #3eff30;
+}
+
+
+div.contenedor {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #E2CAAE;
+    padding: 25px;
+    width: 1080px;
+    height: 1080px;
+    margin: 20px auto ;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: paint;
+   src:  url('Painterz.ttf')  format('truetype'),;
+}
+
+div.contenedor h2{
+    color: white;
+    font-size: 90px;
+}
+
+body{
+    background: radial-gradient(#e66465, #9198e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: "Lato",sans-serif;
+    font-family: "Open Sans",sans-serif;
+    font-family: "PT Sans", sans-serif;
+    box-sizing: border-box;
+}
+form{
+    border-radius: 20px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5rem;
+    background-color:#E2CAAE ;
+    border-radius: 20px;
+    border: none;
+}
+
+h1{
+    display: block;
+    border: 2px;
+    border: 2px solid black;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+label{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    float: right;
+    background-color: rgb(255, 177, 81);
+    padding: 0.5rem;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    float:left;
+    margin-left: 10px;
+    padding: .5rem;
+}
